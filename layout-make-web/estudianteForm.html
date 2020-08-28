@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAKE LAYOUT</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="assets/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/home.css">
+  <script src="assets/fontawesome.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="c-title">
+      <img src="img/logo_make_abrev.svg" alt="LOGO MAKE A MIRACLE" />
+    </div>
+    <ul>
+      <li>
+        <a class="alink " id="home" href="index.html">
+          <i class="fas fa-home"></i>
+        </a>
+      </li>
+      <li>
+        <a class="alink link-active" id="proccess" href="#">
+          <i class="fas fa-bezier-curve"></i>
+        </a>
+      </li>
+      <li>
+        <span class="alink " id="maintenance">
+          <i class="fas fa-tools"></i>
+        </span>
+      </li>
+    </ul>
+    <div class="c-user" id="user">
+      <!-- <img src="https://randomuser.me/api/portraits/women/17.jpg" alt="Usuario"/> -->
+      <h1>J</h1>
+      <div class="user-info hide" id="user-info">
+        <h6>Alejandra Valeria Santos Ramos</h6>
+        <span>Administrador(a)</span>
+        <button class="btn btn-primary">
+          <i class="fas fa-power-off"></i> Cerrar Sesión
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="sidebar-extend hide" id="sidebar-extend">
+    <div class="items hide" id="proccess-items">
+      <div class="title">
+        <p>Procesos</p>
+      </div>
+      <ul>
+        <li>
+          <a class="sublink-active" href="beca.html">
+            Becas
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="items hide" id="maintenance-items">
+      <div class="title">
+        <p>Mantenimiento</p>
+      </div>
+      <ul>
+        <li>
+          <a class="sublink-active" href="estudiantes.html">
+            Estudiante
+          </a>
+        </li>
+        <li>
+          <a href="patrocinadores.html">
+            Patrocinador
+          </a>
+        </li>
+        <li>
+          <a href="instituto.html">
+            Institución
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="content">
+    <div class="cortina hide" id="cortina"></div>
+    <div class="main">
+
+
+
+      <!-- conenedor del formulario -->
+
+
+      <div class="container  overflow-auto h-100">
+
+
+        <h2 class=" pt-5 pb-4 title__home">> Mantenimiento Estudiante / Registrar</h2>
+        <div class="card p-4">
+
+
+         <h3 class="sub__title">Registrar Estudiante</h3>
+
+
+
+       
+          <!-- primer Bloque -->
+
+          <form class="col-lg-6 col-md-10 ">
+            <h4 class="title_form">Informacion de Personal</h4>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="inputEmail4">DNI</label>
+                <input type="number" class="form-control" id="inputEmail4">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputEmail4">Nombres</label>
+                <input type="text" class="form-control" id="inputEmail4">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputPassword4">Apellidos</label>
+                <input type="text" class="form-control" id="inputPassword4">
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-12 col-md-4">
+                <label for="inputAddress" class="d-block">Género</label>
+
+                <div class="radio_genero">
+
+                  <input type="radio" id="radioMale" name="genero" value="Masculino"  checked>
+                  <label for="radioMale">M</label>
+                  <input type="radio" id="radioFamele" name="genero" value="Masculino" >
+                  <label for="radioFamele">F</label>
+
+                </div>
+              
+              </div>
+
+              <div class="form-group col-12 col-sm-12 col-md-8">
+
+                <label for="inputAddress" class="d-block">Fecha de Nacimiento</label>
+                <div class="form-row m-0">
+                  <select name="1" class="custom-select col-12 col-sm-2" id="1"> <option value="">20</option></select>
+                  <select name="2" class="custom-select col-12 col-sm-5" id="2"> <option value="">Enero</option></select>
+                  <select name="3" class="custom-select col-12 col-sm-5" id="3"> <option value="">09</option></select>
+                </div>
+     
+              </div>
+            </div>
+          
+          <!-- infomracion del contacto -->
+
+            <h4 class="title_form">Informacion de Contacto</h4>
+
+
+            <div class="form-row">
+              <div class="form-group col-12 col-md-4">
+                <label for="Distrito" class="d-block">Distrito</label>
+                <select name="Distrito" class="custom-select" id="">
+                  <option value="sjl">Escoger Distrito</option>
+                  <option value="sjl">Escoger Distrito</option>
+                </select>
+              </div >
+
+              <div class="form-group col-12 col-md-8">
+                <label for="direccion">Dirección</label>
+                <input type="text" name="direccion" class="form-control">
+              </div >
+          
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-12 col-md-4">
+                <label for="telefono" class="">Telefono</label>
+                <input type="number" name="telefono" class="form-control">
+              </div >
+
+              <div class="form-group col-12 col-md-8">
+                <label for="correo">Correo</label>
+                <input type="email" name="correo" class="form-control">
+              </div >
+          
+            </div>
+          
+                 <!-- infomracion del contacto -->
+
+
+            <a href="#" class="btn btn-block btn-warning">REGISTRAR</a>
+            <a href="beca.html" class="btn btn-block btn-light text-warning">CANCELAR</a>
+          </form>
+        
+
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+      <!-- find del conenedor del formulario -->
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

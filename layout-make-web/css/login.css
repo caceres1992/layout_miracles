@@ -1,0 +1,101 @@
+:root{
+    --bg-dark: #333;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #002433;
+}
+body{
+    max-width: 100%;
+    max-height: 100vh;
+    background: #ffffff;
+    display: flex;
+}
+
+/*ESTRUCTURA*/
+.content_left{
+    width: calc(100% - 1200px);
+    height: 100vh;
+    background: #002433;
+}
+.content_right{
+    width: 1200px;
+    height: 100vh;
+    background: #EDF3F5;
+}
+/* -------- */
+.content-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_left img{
+    width: 70%;
+}
+.content_right .c-login{
+    width: 450px;
+}
+.content_right span{
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #F0AC32;
+}
+.content_right h1,
+.content_right label{
+    text-transform: uppercase;
+}
+.content_right h1{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 25px 0;
+}
+.content_right label{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.form-row-custom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.form-row-custom p{
+    margin: 0;
+    padding: 0;
+    color: #F0AC32;
+    font-weight: 600;
+}
+.form-row-custom p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.form-row-custom .btn{
+    background: #F0AC32 !important;
+    border-color: #F0AC32 !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+    padding: 10px 30px !important;
+}
+.form-row-custom .btn:active{
+    box-shadow: #fadda9 0 0 0 4px !important;
+}
+
+@media (max-width: 800px){
+    .content_left{
+        display: none;
+    }
+    .content_right{
+        width: 100%;
+    }
+    .c-login{
+        width: 80%;
+        margin: 40px;
+    }
+}

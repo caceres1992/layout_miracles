@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAKE LAYOUT</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="assets/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/home.css">
+  <script src="assets/fontawesome.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="c-title">
+      <img src="img/logo_make_abrev.svg" alt="LOGO MAKE A MIRACLE" />
+    </div>
+    <ul>
+      <li>
+        <a class="alink " id="home" href="index.html">
+          <i class="fas fa-home"></i>
+        </a>
+      </li>
+      <li>
+        <a class="alink link-active" id="proccess" href="#">
+          <i class="fas fa-bezier-curve"></i>
+        </a>
+      </li>
+      <li>
+        <span class="alink " id="maintenance">
+          <i class="fas fa-tools"></i>
+        </span>
+      </li>
+    </ul>
+    <div class="c-user" id="user">
+      <!-- <img src="https://randomuser.me/api/portraits/women/17.jpg" alt="Usuario"/> -->
+      <h1>J</h1>
+      <div class="user-info hide" id="user-info">
+        <h6>Alejandra Valeria Santos Ramos</h6>
+        <span>Administrador(a)</span>
+        <button class="btn btn-primary">
+          <i class="fas fa-power-off"></i> Cerrar Sesión
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="sidebar-extend hide" id="sidebar-extend">
+    <div class="items hide" id="proccess-items">
+      <div class="title">
+        <p>Procesos</p>
+      </div>
+      <ul>
+        <li>
+          <a class="sublink-active" href="beca.html">
+            Becas
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="items hide" id="maintenance-items">
+      <div class="title">
+        <p>Mantenimiento</p>
+      </div>
+      <ul>
+        <li>
+          <a class="sublink-active" href="estudiantes.html">
+            Estudiante
+          </a>
+        </li>
+        <li>
+          <a href="patrocinadores.html">
+            Patrocinador
+          </a>
+        </li>
+        <li>
+          <a href="instituto.html">
+            Institución
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="content">
+    <div class="cortina hide" id="cortina"></div>
+    <div class="main">
+
+
+
+      <!-- conenedor del formulario -->
+
+
+      <div class="container ">
+
+
+        <h2 class=" pt-5 pb-4 title__home">> Mantenimiento Institución / Registrar</h2>
+        <div class="card p-4">
+
+
+         <h3 class="sub__title">Registrar Institución</h3>
+
+
+
+       
+       
+
+          <form class="col-lg-6 col-md-10 ">
+         
+          
+            <div class="form-row">
+                <div class="form-group col-12 ">
+                <label for="inputAddress" class="d-block">Tipo</label>
+
+                <div class="radio_genero" >
+
+                  <input type="radio" id="radioInstituto" name="institucion" value="Instituto" >
+                  <label for="radioInstituto">Instituto</label>
+                  <input type="radio" id="radioUniversidad" name="institucion" value="Universidad" >
+                  <label for="radioUniversidad">Universidad</label>
+
+                </div>
+              
+              </div>
+
+              
+            </div>
+          
+    
+
+
+            <div class="form-row">
+            
+
+              <div class="form-group col-12 ">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" class="form-control">
+              </div >
+          
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-11 ">
+                <label for="carrera" class="">Carrera(s)</label>
+                <input type="text" name="carrera" class="form-control" placeholder="carrera 1">
+              </div >
+              <div class="form-group col-11 ">
+                <input type="text" name="carrera" class="form-control" placeholder="carrera 1">
+              </div >
+
+              <div class="form-group col-1 ">
+                  <bbutton class="btn btn-warning">+</button>
+              </div >
+            
+          
+            </div>
+          
+                 <!-- infomracion del contacto -->
+
+
+            <a href="#" class="btn btn-block btn-warning">REGISTRAR</a>
+            <a href="beca.html" class="btn btn-block btn-light text-warning">CANCELAR</a>
+          </form>
+        
+
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+      <!-- find del conenedor del formulario -->
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

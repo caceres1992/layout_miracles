@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAKE LAYOUT</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="assets/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/home.css">
+  <script src="assets/fontawesome.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="c-title">
+      <img src="img/logo_make_abrev.svg" alt="LOGO MAKE A MIRACLE" />
+    </div>
+    <ul>
+      <li>
+        <a class="alink " id="home" href="index.html">
+          <i class="fas fa-home"></i>
+        </a>
+      </li>
+      <li>
+        <a class="alink " id="proccess" href="#">
+          <i class="fas fa-bezier-curve"></i>
+        </a>
+      </li>
+      <li>
+        <span class="alink link-active" id="maintenance">
+          <i class="fas fa-tools"></i>
+        </span>
+      </li>
+    </ul>
+    <div class="c-user" id="user">
+      <!-- <img src="https://randomuser.me/api/portraits/women/17.jpg" alt="Usuario"/> -->
+      <h1>J</h1>
+      <div class="user-info hide" id="user-info">
+        <h6>Alejandra Valeria Santos Ramos</h6>
+        <span>Administrador(a)</span>
+        <button class="btn btn-primary">
+          <i class="fas fa-power-off"></i> Cerrar Sesión
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="sidebar-extend hide" id="sidebar-extend">
+    <div class="items hide" id="proccess-items">
+      <div class="title">
+        <p>Procesos</p>
+      </div>
+      <ul>
+        <li>
+          <a class="sublink-active" href="beca.html">
+            Becas
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="items hide" id="maintenance-items">
+      <div class="title">
+        <p>Mantenimiento</p>
+      </div>
+      <ul>
+        <li>
+          <a class="sublink-active" href="estudiantes.html">
+            Estudiante
+          </a>
+        </li>
+        <li>
+          <a href="patrocinadores.html">
+            Patrocinador
+          </a>
+        </li>
+        <li>
+          <a href="instituto.html">
+            Institución
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="content">
+    <div class="cortina hide" id="cortina"></div>
+    <div class="main">
+
+      <div class="container  overflow-auto h-100">
+
+
+        <h2 class=" pt-5 pb-4 title__home">> Mantenimiento Estudiante</h2>
+        <div class="card p-4">
+
+
+          <div class="d-flex flex-column flex-sm-row text-center justify-content-sm-between">
+
+            <h3>Estudiantes</h3>
+            <a href="estudianteForm.html" class="btn__add">+ NUEVO ESTUDIANTE</a>
+
+          </div>
+
+
+
+          <div class="mt-5 btn__search">
+            <form action="">
+              <input type="search" placeholder="Buscar estudiante" class="form-control col-sm-12 col-md-6"><i class="fas fa-search"></i>
+            </form>
+          </div>
+          <!-- primer Bloque -->
+
+
+         
+
+
+          <div class=" table-responsive">
+            <table class="table text-center  table-striped" >
+              <thead>
+                <tr class="">
+                  <th>#</th>
+                  <th>Nombre y Apellido</th>
+                  <th>DNI</th>
+                  <th>Telefono</th>
+                  <th>Correo</th>
+                  <th>Estado</th>
+                  <th>Acciones</th>
+                </tr>
+              </thead>
+    
+              <tbody>
+    <tr>
+      <td>1</td>
+      <td>Pepito Gonzales Peres</td>
+      <td>74125896</td>
+      <td>965235263</td>
+      <td>pepito@gmail.com</td>
+      <td> <span class="badge badge-success"">activo</span> </td>
+      <td>                       
+        <a href="#" class="btn btn__customer m-1"><i class="fas fa-pen"></i></a>
+        <a href="#" class="btn btn__customer m-1"><i class="fas fa-info"></i></a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>2</td>
+      <td>Pepito Gonzales Peres</td>
+      <td>74125896</td>
+      <td>965235263</td>
+      <td>pepito@gmail.com</td>
+      <td> <span class="badge badge-success"">activo</span> </td>
+      <td>                       
+        <a href="#" class="btn btn__customer m-1"><i class="fas fa-pen"></i></a>
+        <a href="#" class="btn btn__customer m-1"><i class="fas fa-info"></i></a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>3</td>
+      <td>Pepito Gonzales Peres</td>
+      <td>74125896</td>
+      <td>965235263</td>
+      <td>pepito@gmail.com</td>
+      <td> <span class="badge badge-danger"">inactivo</span> </td>
+      <td>                       
+        <a href="#" class="btn btn__customer m-1"><i class="fas fa-info"></i></a>
+    
+      </td>
+    </tr>
+    
+    
+              </tbody>
+            </table>
+    
+     </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAKE LAYOUT</title>
+  <link rel="stylesheet" href="assets/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/home.css">
+  <script src="assets/fontawesome.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="c-title">
+      <img src="img/logo_make_abrev.svg" alt="LOGO MAKE A MIRACLE" />
+    </div>
+    <ul>
+      <li>
+        <a class="alink link-active" id="home" href="#">
+          <i class="fas fa-home"></i>
+        </a>
+      </li>
+      <li>
+        <a class="alink" id="proccess" href="#">
+          <i class="fas fa-bezier-curve"></i>
+        </a>
+      </li>
+      <li>
+        <span class="alink" id="maintenance">
+          <i class="fas fa-tools"></i>
+        </span>
+      </li>
+    </ul>
+    <div class="c-user" id="user">
+      <!-- <img src="https://randomuser.me/api/portraits/women/17.jpg" alt="Usuario"/> -->
+      <h1>J</h1>
+      <div class="user-info hide" id="user-info">
+        <h6>Alejandra Valeria Santos Ramos</h6>
+        <span>Administrador(a)</span>
+        <button class="btn btn-primary">
+          <i class="fas fa-power-off"></i> Cerrar Sesión
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="sidebar-extend hide" id="sidebar-extend">
+    <div class="items hide" id="proccess-items">
+      <div class="title">
+        <p>Procesos</p>
+      </div>
+      <ul>
+        <li>
+          <a id="becas" class="sublink-active" href="beca.html">
+            Becas
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="items hide" id="maintenance-items">
+      <div class="title">
+        <p>Mantenimiento</p>
+      </div>
+      <ul>
+        <li>
+          <a id="estudiante" class="sublink-active" href="estudiantes.html">
+            Estudiante
+          </a>
+        </li>
+        <li>
+          <a id="patrocinador" href="patrocinadores.html">
+            Patrocinador
+          </a>
+        </li>
+        <li>
+          <a id="institucion" href="instituto.html">
+            Institución
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <div class="content">
+    <div class="cortina hide" id="cortina"></div>
+    <div class="main">
+
+      <div class="container  overflow-auto h-100">
+
+
+        <h2 class=" pt-5 title__home">Bienvenido , <strong>Rosario</strong></h2>
+        <div class="row">
+
+          <!-- primera Bloque -->
+
+          <!-- Students -->
+          <div class="col-12 col-sm-12 col-md-4 mt-3">
+            <div class="card p-3">
+              <div class="row">
+                <div class="col-9">
+                  <h4 class="card__title">Estudiantes</h4>
+                  <span class="card_span">85</span>
+                </div>
+                <div class="col-3 card__icono text-right pl-1">
+                  <i class="fas fa-user-graduate "></i>
+                </div>
+
+                <div></div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+
+          <!-- Sponsors -->
+          <div class="col-12 col-sm-12 col-md-4 mt-3">
+            <div class="card p-3">
+              <div class="row">
+                <div class="col-9">
+                  <h4 class="card__title">Patrocinadores</h4>
+                  <span class="card_span">55</span>
+                </div>
+                <div class="col-3 card__icono text-right pl-1">
+                  <i class="fas fa-user-tie"></i>
+                </div>
+
+                <div></div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <!-- beca -->
+          <div class="col-12 col-sm-12 col-md-4 mt-3">
+            <div class="card p-3">
+              <div class="row">
+                <div class="col-9">
+                  <h4 class="card__title">Becas Otorgadas</h4>
+                  <span class="card_span">80</span>
+                </div>
+                <div class="col-3 card__icono text-right pl-1">
+                  <i class="fas fa-tablet"></i>
+                </div>
+
+                <div></div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- primera Bloque -->
+
+
+
+
+
+        <!-- segundo Bloque -->
+
+        <div class="row mt-5">
+
+          <!-- Grafico -->
+          <div class="col-12 col-sm-12 col-md-4 mt-3">
+            <div class="card p-4">
+              <h4 class="card__title">N° de Matriculados</h4>
+              <canvas id="myChart" class=""></canvas>
+
+
+
+            </div>
+
+          </div>
+
+
+          <!-- New Studenst -->
+          <div class="col-12 col-sm-12 col-md-4 mt-3">
+            <div class="card p-4">
+              <h4 class="card__title">Nuevos Estudiantes</h4>
+
+
+              <div class="card card__new__students">
+                <h5>Joel Gonzales Perez</h5>
+                <span>hace 2 semanas</span>
+              </div>
+
+
+              <div class="card card__new__students">
+                <h5>Joel Gonzales Perez</h5>
+                <span>hace 2 semanas</span>
+              </div>
+
+              <div class="card card__new__students">
+                <h5>Joel Gonzales Perez</h5>
+                <span>hace 2 semanas</span>
+              </div>
+
+
+              <div class="card card__new__students">
+                <h5>Joel Gonzales Perez</h5>
+                <span>hace 2 semanas</span>
+              </div>
+
+              <div class="card card__new__students">
+                <h5>Joel Gonzales Perez</h5>
+                <span>hace 2 semanas</span>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- Carrera Terminada -->
+          <div class="col-12 col-sm-12 col-md-4 mt-3">
+            <div class="card p-4">
+              <h4 class="card__title">Carrera Culminada</h4>
+
+
+              <div class="card card__new__students">
+                <h5>Joel Gonzales Perez</h5>
+                <span>cibertec</span>
+              </div>
+
+
+              <div class="card card__new__students">
+                <h5>Joel Gonzales Perez</h5>
+                <span>idat</span>
+              </div>
+
+              <div class="card card__new__students">
+                <h5>Joel Gonzales Perez</h5>
+                <span>maria auxiliadora</span>
+              </div>
+
+
+              <div class="card card__new__students">
+                <h5>Joel Gonzales Perez</h5>
+                <span>cesar vallejo</span>
+              </div>
+              <div class="card card__new__students">
+                <h5>Joel Gonzales Perez</h5>
+                <span>tegnologica del peru</span>
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
+        <!-- segundo Bloque -->
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

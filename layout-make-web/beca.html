@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAKE LAYOUT</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="assets/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/home.css">
+  <script src="assets/fontawesome.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="c-title">
+      <img src="img/logo_make_abrev.svg" alt="LOGO MAKE A MIRACLE" />
+    </div>
+    <ul>
+      <li>
+        <a class="alink " id="home" href="index.html">
+          <i class="fas fa-home"></i>
+        </a>
+      </li>
+      <li>
+        <a class="alink link-active" id="proccess" href="#">
+          <i class="fas fa-bezier-curve"></i>
+        </a>
+      </li>
+      <li>
+        <span class="alink " id="maintenance">
+          <i class="fas fa-tools"></i>
+        </span>
+      </li>
+    </ul>
+    <div class="c-user" id="user">
+      <!-- <img src="https://randomuser.me/api/portraits/women/17.jpg" alt="Usuario"/> -->
+      <h1>J</h1>
+      <div class="user-info hide" id="user-info">
+        <h6>Alejandra Valeria Santos Ramos</h6>
+        <span>Administrador(a)</span>
+        <button class="btn btn-primary">
+          <i class="fas fa-power-off"></i> Cerrar Sesión
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="sidebar-extend hide" id="sidebar-extend">
+    <div class="items hide" id="proccess-items">
+      <div class="title">
+        <p>Procesos</p>
+      </div>
+      <ul>
+        <li>
+          <a class="sublink-active" href="beca.html">
+            Becas
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="items hide" id="maintenance-items">
+      <div class="title">
+        <p>Mantenimiento</p>
+      </div>
+      <ul>
+        <li>
+          <a class="sublink-active" href="estudiantes.html">
+            Estudiante
+          </a>
+        </li>
+        <li>
+          <a href="patrocinadores.html">
+            Patrocinador
+          </a>
+        </li>
+        <li>
+          <a href="instituto.html">
+            Institución
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="content">
+    <div class="cortina hide" id="cortina"></div>
+    <div class="main">
+
+      <div class="container  overflow-auto h-100">
+
+
+        <h2 class=" pt-5 pb-4 title__home">> Gestion Becas</h2>
+        <div class="card p-4">
+
+
+          <div class="d-flex flex-column flex-sm-row text-center justify-content-sm-between">
+
+            <h3>Becas Otorgadas</h3>
+            <a href="becaForm.html" class="btn__add">+ NUEVA BECA</a>
+
+          </div>
+
+
+
+          <div class="mt-5 btn__search">
+            <form action="">
+              <input type="search" placeholder="Buscar" class="form-control col-sm-12 col-md-6"><i class="fas fa-search"></i>
+            </form>
+          </div>
+          <!-- primer Bloque -->
+
+
+          <div class="row">
+
+
+            <div class="col-md-6 col-lg-4 col-sm-12 col-12 mt-2">
+              <div class="card card__beca p-4">
+                  <div class="row">
+                       
+                    <div class="col-12 col-md-8  card__beca__body">
+
+                      <h3>Juan Alvaro Casas Perez</h3>
+                      <span>otorgado el 21/02/2020</span>
+                      <h3>Tegnologica del Peru</h3>
+                      <span>Ingenieria de Sistemas</span>
+                      <h3>Carlos Antonio Ramos</h3>
+                      <span>Sponsor</span>
+                    </div>
+                    <div class="col-12 col-md-4 text-center pt-2 btn_beca">
+                          
+                      <a href="#" class=" m-1"><i class="fas fa-pen"></i></a>
+                      <a href="#" class=" m-1"><i class="fas fa-info"></i></a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-md-6 col-lg-4 col-sm-12 col-12 mt-2">
+              <div class="card card__beca p-4">
+                  <div class="row">
+                       
+                    <div class="col-12 col-md-8  card__beca__body">
+
+                      <h3>Juan Alvaro Casas Perez</h3>
+                      <span>otorgado el 21/02/2020</span>
+                      <h3>Tegnologica del Peru</h3>
+                      <span>Ingenieria de Sistemas</span>
+                      <h3>Carlos Antonio Ramos</h3>
+                      <span>Sponsor</span>
+                    </div>
+                    <div class="col-12 col-md-4 text-center pt-2 btn_beca">
+                          
+                      <a href="#" class=" m-1"><i class="fas fa-pen"></i></a>
+                      <a href="#" class=" m-1"><i class="fas fa-info"></i></a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+
+            
+            <div class="col-md-6 col-lg-4 col-sm-12 col-12 mt-2">
+              <div class="card card__beca p-4">
+                  <div class="row">
+                       
+                    <div class="col-12 col-md-8  card__beca__body">
+
+                      <h3>Juan Alvaro Casas Perez</h3>
+                      <span>otorgado el 21/02/2020</span>
+                      <h3>Tegnologica del Peru</h3>
+                      <span>Ingenieria de Sistemas</span>
+                      <h3>Carlos Antonio Ramos</h3>
+                      <span>Sponsor</span>
+                    </div>
+                    <div class="col-12 col-md-4 text-center pt-2 btn_beca">
+                          
+                      <a href="#" class=" m-1"><i class="fas fa-pen"></i></a>
+                      <a href="#" class=" m-1"><i class="fas fa-info"></i></a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+
+            
+            <div class="col-md-6 col-lg-4 col-sm-12 col-12 mt-2">
+              <div class="card card__beca p-4">
+                  <div class="row">
+                       
+                    <div class="col-12 col-md-8  card__beca__body">
+
+                      <h3>Juan Alvaro Casas Perez</h3>
+                      <span>otorgado el 21/02/2020</span>
+                      <h3>Tegnologica del Peru</h3>
+                      <span>Ingenieria de Sistemas</span>
+                      <h3>Carlos Antonio Ramos</h3>
+                      <span>Sponsor</span>
+                    </div>
+                    <div class="col-12 col-md-4 text-center pt-2 btn_beca">
+                          
+                      <a href="#" class=" m-1"><i class="fas fa-pen"></i></a>
+                      <a href="#" class=" m-1"><i class="fas fa-info"></i></a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+
+            
+            <div class="col-md-6 col-lg-4 col-sm-12 col-12 mt-2">
+              <div class="card card__beca p-4">
+                  <div class="row">
+                       
+                    <div class="col-12 col-md-8  card__beca__body">
+
+                      <h3>Juan Alvaro Casas Perez</h3>
+                      <span>otorgado el 21/02/2020</span>
+                      <h3>Tegnologica del Peru</h3>
+                      <span>Ingenieria de Sistemas</span>
+                      <h3>Carlos Antonio Ramos</h3>
+                      <span>Sponsor</span>
+                    </div>
+                    <div class="col-12 col-md-4 text-center pt-2 btn_beca">
+                          
+                      <a href="#" class=" m-1"><i class="fas fa-pen"></i></a>
+                      <a href="#" class=" m-1"><i class="fas fa-info"></i></a>
+                    
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+
+            
+            <div class="col-md-6 col-lg-4 col-sm-12 col-12 mt-2">
+              <div class="card card__beca p-4">
+                  <div class="row">
+                       
+                    <div class="col-12 col-md-8  card__beca__body">
+
+                      <h3>Juan Alvaro Casas Perez</h3>
+                      <span>otorgado el 21/02/2020</span>
+                      <h3>Tegnologica del Peru</h3>
+                      <span>Ingenieria de Sistemas</span>
+                      <h3>Carlos Antonio Ramos</h3>
+                      <span>Sponsor</span>
+                    </div>
+                    <div class="col-12 col-md-4 text-center pt-2 btn_beca">
+                          
+                      <a href="#" class=" m-1"><i class="fas fa-pen"></i></a>
+                      <a href="#" class=" m-1"><i class="fas fa-info"></i></a>
+                    
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            
+
+
+          </div>
+
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

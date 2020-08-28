@@ -1,0 +1,243 @@
+.card__icono i {
+  color: #2db7f1 !important;
+  font-size: 20px;
+  padding: 10px;
+
+  background-color: #edf3f5;
+}
+.card__title {
+  font-size: 1rem;
+  color: #6f92a0;
+}
+
+.card_span {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+.title__home {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+}
+
+.card {
+  border: none;
+}
+
+.card__new__students {
+  margin-top: 0.5rem;
+
+  background-color: #edf3f5;
+  padding: 15px;
+}
+
+.card__new__students h5 {
+  font-size: 0.8rem;
+  font-family: Segoe UI;
+  font-weight: 600;
+
+  letter-spacing: 0.05em;
+}
+.card__new__students span {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 0px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+}
+
+/* Beca */
+
+.btn__add {
+  background-color: #f1ad32 !important;
+  display: block;
+  text-decoration: none;
+  color: #f8f8f8;
+  align-self: center;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.btn__add:hover {
+  color: #fff;
+}
+
+.btn__search {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.btn__search form input {
+  position: absolute;
+  padding-left: 35px;
+  top: 0;
+  bottom: 0;
+}
+.btn__search form i {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 10px;
+}
+
+.card__beca {
+  background-color: #edf3f5;
+  line-height: 0;
+}
+
+.card__beca__body h3 {
+  font-size: 1rem;
+  line-height: 15px;
+  padding: 20px 0 0 0;
+}
+
+.card__beca__body span {
+  font-size: 0.7rem;
+  line-height: 10px;
+}
+
+.btn_beca a {
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid #2db7f1;
+  width: 2.5rem;
+}
+
+.btn_beca a i {
+  color: #2db7f1;
+}
+
+.btn__customer {
+  padding: 8px;
+  border: 1px solid #2db7f1;
+  top: 0;
+  height: 35px;
+  width: 35px;
+  bottom: 0;
+  text-align: center;
+  display: inline-block;
+  align-items: flex-end;
+  line-height: 0;
+}
+.btn__customer i {
+  color: #2db7f1;
+}
+
+.btn-warning {
+  background-color: #f1ad32;
+  border-color: #f1ad32;
+}
+
+.btn-warning:hover {
+  background-color: #f8ad22;
+  border-color: #f8ad22;
+}
+
+.text-warning {
+  color: #f8ad22 !important;
+}
+
+.sub__title {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  color: #6f92a0;
+}
+
+.label {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 15px;
+  font-family: Segoe UI;
+  font-style: normal;
+}
+
+tbody tr td {
+    vertical-align: middle !important;
+}
+
+.table-striped {
+  background-color: #DEEAEF;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+ background-color: #EDF3F5;
+
+}
+thead{
+background-color: #063041;
+}
+
+thead tr th{
+color: #f2f2f2;
+}
+
+
+
+
+/* title de los formularios */
+
+.title_form{
+  font-family: Segoe UI;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+
+letter-spacing: 0.05em;
+color: #6F92A0;
+}
+
+form div div label{
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+
+  letter-spacing: 0.1em;
+  color: #002433;
+}
+
+
+
+/* custumer radio */
+.radio_genero {
+  display: flex;
+}
+.radio_genero input[type="radio"]{
+ opacity: 0; 
+ position: fixed;
+ width: 0;
+
+}
+
+.radio_genero label{
+  display: inline-block;
+ border: 1px solid #DEEAEF;
+ padding: 5px;
+ width: 50%;
+ text-align: center;
+ }
+
+ .radio_genero input[type="radio"]:checked + label{
+   border-color: #2DB7F1;
+   color: #2DB7F1;
+ }
+
+ .radio_genero input[type="radio"]:focus + label{
+  border: 2px dashed #53b9e6;
+}
+
